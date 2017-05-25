@@ -9,7 +9,7 @@ class App extends Component {
     this.state = {phone: '',report: ''};
 
     this.handleChange = this.handleChange.bind(this);
-    this.handleSubmit = this.handleSubmit.bind(this);
+    this.handleSubmit = this.handleSubmit.bind(this); 
   }
 
   handleChange(event) {
